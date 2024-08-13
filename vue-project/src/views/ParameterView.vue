@@ -1,5 +1,5 @@
 <template>
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 13rem;">
       <div class="form-check form-switch">
         <input type="checkbox" class="form-check-input" id="checkbox" v-model="isDarkMode" @change="toggleDarkMode">
         <label class="form-check-label" for="checkbox">Dark Mode</label>
@@ -53,8 +53,12 @@
   </script>
   
   <style>
+  .card{
+    margin-top: 100px;
+    margin-left: 100px;
+  }
   .checkbox {
-    width: 300px;
+    width: 100px;
     margin: 100px auto;
   }
   
